@@ -1,0 +1,132 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.nav-bg{
+  width: 100vw;
+  background: #000;
+  position:fixed;
+  top:0;
+  left: 0;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.09) ;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+}
+
+.mShow{
+  font-size: 30px;
+}
+.name{
+  margin:0;
+  padding: 0;
+  font-family: serif;
+  font-style: italic;
+}
+.quote-bg{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+}
+.quote{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.content{
+  transition: 0.5s;
+  font-family: Roboto;
+  margin: 0 20px 0 20px;
+}
+.author{
+  width: 100vw;
+  transition: 0.5s;
+  font-family: Roboto slab;
+  margin-top: 40px;
+}
+.new{
+  width: 190px;
+  border: 0;
+  outline: 0;
+  padding: 5px;
+  background: #fff;
+  border: 3px dotted #2196f3;
+  font-family: serif;
+  font-size:13pt;
+  border-radius: 15px;
+  transition: 0.5s;
+  margin-top: 20px
+
+}
+.new:hover{
+  background: #2196f3;
+  color: #fff;
+}
+.footer-bg{
+  width: 100vw;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+}
+.footer{
+  transition: 0.5s;
+  padding: 15px;
+  text-align: center;
+  font-size: 10pt;
+  background: #fff;
+  box-shadow: -3px 0 15px rgba(0, 0, 0, 0.09);
+  border-radius: 20px 20px 0 0;
+}
+.about{
+  margin: 0;
+  padding: 0;
+}
+.overlay{
+  width: 0vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  right:0;
+  z-index: 5;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.7);
+}
+.menu-bg{
+  height: 100vh;
+  position: absolute;
+  top:0;
+  right:0;
+  background: #2196f3;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: roboto;
+  font-size: 15pt;
+  
+}
+a{
+  text-decoration: none;
+  text-align: left;
+  padding: 10px;
+  background: #2196f3;
+  color: #fff;
+  margin: 10px 0 10px 0;
+  font-size: 25pt;
+}
